@@ -1,0 +1,55 @@
+body {
+  background-color: #dcdcdc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: white;
+  width: 60%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+}
+.todo-list > li {
+  margin-bottom: 15px;
+}
+.l-item {
+  background-color: #cfd8cc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sub-item {
+  list-style: square;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: magenta;
+}
+a:hover {
+  color: green;
+}
+a:focus {
+  outline: 3px solid yellow;
+}
+a:active {
+  color: brown;
+}
